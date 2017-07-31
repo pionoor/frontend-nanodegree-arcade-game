@@ -135,9 +135,9 @@ Player.prototype.handleInput = function(key){
 // Place the player object in a variable called player
 var player = new Player();
 var allEnemies = [];
-allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4), 100));
-allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4), 100));
-allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4), 100));
+allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4), getRandomInt(100, 200)));
+allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4),  getRandomInt(100, 200)));
+allEnemies.push(new Enemy(getRandomInt(0, 4), getRandomInt(1, 4),  getRandomInt(100, 200)));
 
 
 // This listens for key presses and sends the keys to your
