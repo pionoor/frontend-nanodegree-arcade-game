@@ -1,6 +1,17 @@
-frontend-nanodegree-arcade-game
+Classic Arcade Game Clone
 ===============================
+A part of the Front-End Web Developer Nanodegree Program. The project utilizes concepts learned from [Object-Oriented JavaScript, and HTML5 Canvas courses.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Game Instructions:
+=====================
+To lunch the game, simply click on index.html file and open it with your favorite browser.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+Keyboard Keys
+===============
+* Move up: up arrow
+* Move down: down arrow
+* Move left: left arrow
+* Move right: right arrow
+* Reach the water to score
+* Avoid the bugs
